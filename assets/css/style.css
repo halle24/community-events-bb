@@ -1,0 +1,133 @@
+/* Community Events Barbados - Consistent Color Scheme */
+:root {
+    --primary-blue: #003087;
+    --secondary-green: #00A651;
+    --accent-gold: #FFB81C;
+    --light-bg: #F8F9FA;
+    --dark-text: #212529;
+}
+
+body {
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: var(--primary-blue) !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: var(--accent-gold) !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+.btn-primary:hover {
+    background-color: #00246b;
+    border-color: #00246b;
+}
+
+.btn-success {
+    background-color: var(--secondary-green);
+    border-color: var(--secondary-green);
+}
+
+.btn-success:hover {
+    background-color: #008c44;
+    border-color: #008c44;
+}
+
+.btn-warning {
+    background-color: var(--accent-gold);
+    border-color: var(--accent-gold);
+    color: #212529;
+}
+
+.btn-warning:hover {
+    background-color: #e6a600;
+    border-color: #e6a600;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 48, 135, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 48, 135, 0.15);
+}
+
+.card-title {
+    color: var(--primary-blue);
+}
+
+/* Alerts */
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-blue) !important;
+}
+
+/* Featured event highlight */
+.featured-card {
+    border-left: 6px solid var(--accent-gold);
+}
+
+/* Disable hover effect for some cards like Login and Register */
+.card.no-hover:hover {
+    transform: none !important;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important; /* Standard bootstrap shadow-sm */
+}
+
+/* Styling for cancelled events */
+.event-cancelled {
+    opacity: 0.6;
+    filter: grayscale(50%);
+    border: 1px solid #dc3545 !important; /* Red border to highlight cancellation */
+}
+
+.event-cancelled .btn-primary {
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    pointer-events: none; /* Disables clicking into the event */
+}

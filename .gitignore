@@ -1,0 +1,14 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment & config files
+.env
+config.php
+
+# XAMPP / local server files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
