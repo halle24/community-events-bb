@@ -6,6 +6,19 @@ Built as a group project for COMP 3375 (Software Testing & Quality) at The Unive
 
 ---
 
+## Screenshots
+
+**Home Page**
+![Home Page](screenshots/home.png)
+
+**Admin Dashboard**
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+**Create New Event (Admin)**
+![Create Event](screenshots/create-event.png)
+
+---
+
 ## Features
 
 ### For Users
