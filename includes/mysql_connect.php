@@ -3,8 +3,8 @@
 // This file contains the database access information.
 // It creates a connection to MySQL and selects the database.
 // Set the database access information as constants.
-DEFINE ('DB_USER', 'root');
-DEFINE ('DB_PASSWORD', 'root'); //change this for the account in the lab.
+DEFINE ('DB_USER', 'your_db_username');
+DEFINE ('DB_PASSWORD', 'your_db_password'); //change this for the account in the lab.
 DEFINE ('DB_HOST', 'localhost');
 DEFINE ('DB_NAME', 'CommunityEvent');
 // Make the connection.
